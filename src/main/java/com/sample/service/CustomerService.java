@@ -1,9 +1,7 @@
 package com.sample.service;
 
-import com.sample.domain.*;
-import com.sample.repository.*;
-
-
+import com.sample.domain.Customer;
+import com.sample.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
